@@ -10,7 +10,7 @@ def rbfs(start, goal):
     f_limit = float('inf')
     stack = [(Node(start, f=0), f_limit)]
     visited = set()
-
+sd
     while stack:
         (node, f) = stack.pop()
         visited.add(node.state)
